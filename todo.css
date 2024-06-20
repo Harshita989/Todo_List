@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    background-image: url(photoo.jpeg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Container for the to-do app */
+.todo-container {
+    background-color: #fff;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    background-color: rgba(255, 255, 255, 0.45);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1254901961);
+  border-radius: 10px;
+}
+/* Title of the to-do app */
+.todo-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+/* Styles for the input field and add button */
+.todo-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.todo-input input {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.todo-input button {
+    width: 20%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.todo-input button:hover {
+    background-color: #218838;
+}
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-list li {
+    background-color: #fafafa;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo-list li:nth-child(even) {
+    background-color: #f9f9f9;
+}
+/* Styles for the delete button */
+.todo-list button {
+    background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.todo-list button:hover {
+    background-color: #c82333;
+}
